@@ -25,4 +25,5 @@ Simply copy the `renamefiles` file to a location in your `$PATH` and make it exe
 
 ## Screencast
 (the screencast is from original vimv tool, just replace "vimv" to "renamefiles" when you use it, everything else is the same)
+
 ![alt text](screencast.gif "renamefiles in action")
