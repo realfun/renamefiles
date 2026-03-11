@@ -1,19 +1,12 @@
 # renamefiles
 
-renamefiles is a terminal-based file rename utility that lets you easily mass-rename files using Vim.
+renamefiles is a terminal-based file rename utility that lets you easily batch rename files using Vim.
+
+(forked from vimv, because I can't remember the name of vimv well when I wanted to use it)
 
 ## Installing
 
-1. For the current user:
-   ```
-   curl https://raw.githubusercontent.com/realfun/renamefiles/master/renamefiles > ~/.local/bin/renamefiles && chmod +755 ~/.local/bin/renamefiles
-   ```
-2. For the current system:
-   ```
-   sudo PREFIX=/usr/local make install
-   ```
-
-Or simply copy the `renamefiles` file to a location in your `$PATH` and make it executable.
+Simply copy the `renamefiles` file to a location in your `$PATH` and make it executable.
 
 ## Usage
 
@@ -31,5 +24,5 @@ Or simply copy the `renamefiles` file to a location in your `$PATH` and make it 
 * Cyclic renames are supported (file1 <-> file2)
 
 ## Screencast
-
+(the screencast is from original vimv tool, just replace "vimv" to "renamefiles" when you use it, everything else is the same)
 ![alt text](screencast.gif "renamefiles in action")
